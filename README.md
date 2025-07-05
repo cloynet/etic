@@ -1,1 +1,1 @@
-etic-g8uc.vercel.app
+https://etic-g8uc.vercel.app
