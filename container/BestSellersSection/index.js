@@ -6,6 +6,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 
+
+
 function BestSellersSection() {
   const [bestSellers, setBestSellers] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -45,7 +47,7 @@ function BestSellersSection() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('http://localhost:3000/products.json');
+        const res = await fetch('/products.json');
         if (!res.ok) throw new Error('Veri alınamadı');
         const data = await res.json();
         setBestSellers(data.filter(product => product.bestseller));
