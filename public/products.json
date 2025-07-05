@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Nike Air Max 270",
+        "price": 4339,
+        "image": "/assets/images/nike-air270.jpg",
+        "category": "Sport",
+        "bestseller": false,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+    {
+        "id": 2,
+        "name": "Adidas Ultraboost",
+        "price":  9999,
+        "image": "/assets/images/adidas-ultraboost.jpg",
+        "category": "Sport",
+        "bestseller": false,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+    {
+        "id": 3,
+        "name": "Skechers D'lites",
+        "price":  5499,
+        "image": "/assets/images/skechers-dlites.jpg",
+        "category": "Sport",
+        "bestseller": true,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+    {
+        "id": 4,
+        "name": "Kinetix Arıon 24YA",
+        "price":  1160,
+        "image": "/assets/images/kinetix-arion24ya.jpg",
+        "category": "Sport",
+        "bestseller": true,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+    {
+        "id": 5,
+        "name": "New Balance 530 Unisex",
+        "price":  4999,
+        "image": "/assets/images/newbalance-530.jpg",
+        "category": "Sport",
+        "bestseller": false,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+     {
+        "id": 6,
+        "name": "Tommy Hilfiger Erkek Light Hilifiger Nubuk Bot",
+        "price":  6399,
+        "image": "/assets/images/tommyhilfiger-light.jpg",
+        "category": "Boot",
+        "bestseller": true,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+     {
+        "id": 7,
+        "name": "Greyder 10450 Basic Erkek Bot" ,
+        "price":  5000,
+        "image": "/assets/images/greyder-10450.jpg",
+        "category": "Boot",
+        "bestseller": false,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+     {
+        "id": 8,
+        "name": "Harley Davidson Clemente Erkek Yeşil Nubuk Bot",
+        "price":  6999,
+        "image": "/assets/images/harleydavidson-clemente.jpg",
+        "category": "Boot",
+        "bestseller": true,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+     {
+        "id": 9,
+        "name": "Hammer Jack Hakiki Deri Nubuk Erkek Bot",
+        "price":  2700,
+        "image": "/assets/images/hammerjack-nubuk.jpg",
+        "category": "Boot",
+        "bestseller": false,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    },
+
+     {
+        "id": 10,
+        "name": "LumberJack Lumberjack SoftShell ",
+        "price":  2414,
+        "image": "/assets/images/lumberjack-softshell.jpg",
+        "category": "Boot",
+        "bestseller": false,
+        "description": "Bu ürün hakkında detaylı bilgi daha sonra eklenecektir."
+    }
+]
