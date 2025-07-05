@@ -64,11 +64,11 @@ function BestSellersSection() {
   if (!bestSellers.length) return <div className='p-4'>Çok satan ürün bulunamadı</div>
 
   return (
-    <section className='p-8 text-center'>
+    <section className='p-8 md:text-center'>
         <h2 className='md:text-2xl font-bold mb-4'>En Çok Satanlar</h2>
 
 
-        <div className='max-w-[300]'>
+        <div className='max-w-[320px] md:max-w-[700px]'>
           <Slider {...settings}>
           
             {bestSellers.map((product) => (

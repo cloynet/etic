@@ -2,18 +2,23 @@ import React from 'react'
 import ProductClient from './ProductClient';
 import { notFound } from 'next/navigation';
 
+import { promises as fs } from "fs";
+import path from 'path';
+
 async function ProductDetail({ params }) {
 const { id } = params;
 
 
-const res = await fetch(`http://localhost:3000/products.json`);
-const products = await res.json();
+const file = await fs.readFile(
+        path.join(process.cwd(), "public", "products.json"),
+        "utf-8"
+    );
+
+    const products = JSON.parse(file);
 
 const product = products.find(p => p.id.toString() === id);
 
-if (!product) {
-    notFound();
-}
+
 
 return <ProductClient product={product}/>
 }

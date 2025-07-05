@@ -10,7 +10,7 @@ export default function ProductClient({ product }) {
 
 return (
     <div className="flex items-center justify-center min-h-[1000px]">
-        <div className="max-w-4xl w-full border-l-4 border-b-4 border-gray-500 bg-white rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+        <div className="max-w-[340] md:max-w-4xl w-full border-l-4 border-b-4 border-gray-500 bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
         <div className="relative w-full md:w-1/2 h-96">
             <Image
             src={product.image}
